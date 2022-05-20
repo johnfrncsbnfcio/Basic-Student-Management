@@ -216,6 +216,7 @@ public class MainApplication extends javax.swing.JFrame {
         ReportLabel = new javax.swing.JLabel();
         HomeLabel = new javax.swing.JLabel();
         TopPanel = new javax.swing.JPanel();
+        exitButton = new javax.swing.JLabel();
 
         view.setText("view");
         view.addActionListener(new java.awt.event.ActionListener() {
@@ -890,16 +891,39 @@ public class MainApplication extends javax.swing.JFrame {
                 contentPane.add(HomeLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 158, 150, 50));
 
                 TopPanel.setBackground(new java.awt.Color(0, 153, 153));
+                TopPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(2, 2, 2, 2));
+
+                exitButton.setBackground(new java.awt.Color(255, 0, 0));
+                exitButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+                exitButton.setForeground(new java.awt.Color(255, 255, 255));
+                exitButton.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+                exitButton.setText("X");
+                exitButton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+                exitButton.setMaximumSize(new java.awt.Dimension(749, 600));
+                exitButton.setMinimumSize(new java.awt.Dimension(749, 600));
+                exitButton.setOpaque(true);
+                exitButton.setPreferredSize(new java.awt.Dimension(749, 600));
+                exitButton.addMouseListener(new java.awt.event.MouseAdapter() {
+                    public void mousePressed(java.awt.event.MouseEvent evt) {
+                        exitButtonMousePressed(evt);
+                    }
+                });
 
                 javax.swing.GroupLayout TopPanelLayout = new javax.swing.GroupLayout(TopPanel);
                 TopPanel.setLayout(TopPanelLayout);
                 TopPanelLayout.setHorizontalGroup(
                     TopPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGap(0, 900, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, TopPanelLayout.createSequentialGroup()
+                        .addContainerGap(860, Short.MAX_VALUE)
+                        .addComponent(exitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(14, 14, 14))
                 );
                 TopPanelLayout.setVerticalGroup(
                     TopPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGap(0, 40, Short.MAX_VALUE)
+                    .addGroup(TopPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(exitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(8, Short.MAX_VALUE))
                 );
 
                 contentPane.add(TopPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 40));
@@ -1183,6 +1207,12 @@ public class MainApplication extends javax.swing.JFrame {
     private void addStudentLabel1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addStudentLabel1MousePressed
         updateAccount();
     }//GEN-LAST:event_addStudentLabel1MousePressed
+
+    private void exitButtonMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exitButtonMousePressed
+        if(SwingUtilities.isLeftMouseButton(evt)){
+            System.exit(0);
+        }
+    }//GEN-LAST:event_exitButtonMousePressed
 
     private void showEdit() {
         try {
@@ -1672,6 +1702,7 @@ public class MainApplication extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> cbScheduleReport;
     private javax.swing.JPanel contentPane;
     private javax.swing.JMenuItem edit;
+    private javax.swing.JLabel exitButton;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JPanel jPanel1;
