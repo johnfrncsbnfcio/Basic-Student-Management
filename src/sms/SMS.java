@@ -20,6 +20,7 @@ public class SMS {
     
     /**
      * @param args the command line arguments
+     * @throws java.lang.Exception
      */
     public static void main(String[] args) throws Exception {
         
@@ -38,14 +39,14 @@ public class SMS {
                     Login login = new Login();
                     login.setVisible(true);
                 }else{
-                    System.out.println("no account detected");
+                    System.out.println("No account detected");
                 }
-            }catch(Exception e){
-                System.out.println("nooo");
+            }catch(SQLException e){
+                System.out.println("Error connecting to database");
             }
             
         }else{
-            System.out.println("false");
+            System.out.println("Database Error");
         }
     }
     
