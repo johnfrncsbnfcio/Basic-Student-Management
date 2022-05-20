@@ -8,11 +8,15 @@ Student Management System using JAVA &amp; MYSQL
   - Xampp (Server)
   - Netbeans IDE
 #### Pre-requisite Download :
-  - Jar file link -> [rs2xml](https://hacksmile.com/rs2xml-jar-free-download/)
+  - rs2xml -> [link here](https://hacksmile.com/rs2xml-jar-free-download/)
 
-  - Jar file link -> [MySQL Connector](https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar)
+  - MySQL Connector -> [link here](https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar)
 
-###### Note : After download, add both jar file to your Java project classpath
+  - JCalendar -> [link here](https://toedter.com/jcalendar/)
+
+###### Note : After download, add downloaded jar files to your Java project classpath
+
+  - How to add jar file in netbeans -> [link here](https://www.youtube.com/watch?v=jsS_cRbNv3o)
 ----------------------------------------------------------
 ### Features 
   #### - Student
