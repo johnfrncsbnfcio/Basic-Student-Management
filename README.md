@@ -8,6 +8,11 @@ Student Management System using JAVA &amp; MYSQL
   - Xampp (Server)
   - Netbeans IDE
 #### Pre-requisite Download :
+
+  - all jar files used in this project located at jarfile folder
+  
+  or you can download below links
+
   - rs2xml -> [link here](https://hacksmile.com/rs2xml-jar-free-download/)
 
   - MySQL Connector -> [link here](https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar)
