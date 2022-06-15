@@ -36,4 +36,5 @@ Student Management System using JAVA &amp; MYSQL
   - Data validation
   - etc
 
-### Screeshot of the UI soon to upload
+Screenshot
+![This is an image](/src/images/desktopappUi.png)
