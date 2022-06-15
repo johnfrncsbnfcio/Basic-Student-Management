@@ -1,4 +1,4 @@
-# Basic-Student-Management
+# Basic-Student-Management( not able to finish this project - I focus more on javascript lately :) )
 Student Management System using JAVA &amp; MYSQL
 
 #### This is just a basic desktop application using the OOP approach.
@@ -37,4 +37,5 @@ Student Management System using JAVA &amp; MYSQL
   - etc
 
 Screenshot
-![This is an image](/src/images/desktopappUi.png)
+![This is an image](/src/images/desktopappUi.jpg)
+![This is an image](/src/images/codeUi.jpg)
