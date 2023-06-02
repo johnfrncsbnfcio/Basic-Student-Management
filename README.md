@@ -1,7 +1,7 @@
 # Basic-Student-Management( not able to finish this project - I focus more on javascript lately :) )
 Student Management System using JAVA &amp; MYSQL
 
-#### This is just a basic desktop application using the OOP approach.
+#### This is just a basic desktop application using the OOP / MVC approach.
 #### Tools used :
   - Java Programming Language
   - MySQL Database
